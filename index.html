@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="shortcut icon" href="logos_icos/ciudada-olvidada-icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Ciudad Olvidada</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo"><a href="index.html"><img src="logos_icos/ciudada-olvidada-logo.png" alt="Inicio"></a>
+            </div>
+            <nav>
+                <a href="pages/stories.html">Historias</a>
+                <a href="pages/editions.html ">Ediciones</a>
+                <a href="pages/about.html">Acerca de</a>
+            </nav>
+        </header>
+        <main>
+            <!--Acá va la sección de la entrevista del hogar de paso-->
+            <section id="rincon-invisibles">
+                <h1>Un rincón para los invisibles.</h1>
+                <div id="video-1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bLtU1aOWonk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <article>
+                    <p>Son más las personas que buscan el bienestar de los demás; esa es la labor de Alejandro, director del hogar de paso San Francisco de Asís.</p>
+                    <br>
+                    <p>En esta entrevista nos cuenta un poco sobre este sitio, en el que muchas personas, olvidadas por la sociedad, encuentran refugio para pasar la noche.</p>
+                </article>
+            </section>
+            
+            <!--Acá va la sección de audio-->
+            <section id="ultima-edicion">
+                <h1>Una nueva oportunidad.</h1>
+                <article>
+                    <p>Trabajar para subsistir, con la esperanza de salir adelante.</p>
+                    <br>
+                    <p>Jonathan nos cuenta un poco su experiencia como uno de los beneficiarios del hogar de paso San Francisco de Asís.</p>
+                </article>
+                <div id="entrevista-sound-cloud">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/936831715&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nancy-fabiola-avila-forero" title="Nancy Fabiola FORERO" target="_blank" style="color: #cccccc; text-decoration: none;">Nancy Fabiola FORERO</a> · <a href="https://soundcloud.com/nancy-fabiola-avila-forero/una-nueva-oportunidad" title="Una Nueva Oportunidad" target="_blank" style="color: #cccccc; text-decoration: none;">Una Nueva Oportunidad</a></div>
+                </div>
+            </section>
+            
+            <!--Acá va el artículo de la revista-->
+            <section id="articulo-revista">
+                <h1>Entre las palomas</h1>
+                <h2>Por Fabiola Ávila</h2>
+                <div class="imagenes-de-referencia">
+                    <img src="resources/viejito.jpg" alt="Entre las palomas" width="100%">
+                </div>
+                <article>
+                    <p>Entre las personas que ignoramos a diario normalmente se encuentran los adultos mayores, perdiendo así muchas veces la oportunidad de encontrar increíbles anécdotas y experiencias que nos pueden ayudar a entender un poco el mundo y la sociedad en que vivimos.</p><br>
+                    <p>Mientras iba caminando, cámara en mano, tratando de ver mas allá de la rutina, me encontré con este señor, al que todo el mundo pasaba por el lado. Vendía maíz para las palomas, mientras estaba acompañado de la soledad entre las personas.</p><br> 
+                    <p>Esta foto refleja cuantas veces vamos caminando, ignorando la gente que hay a nuestro alrededor, perdiendo buenas historias en el proceso</p>                                   
+                </article>
+            </section>
+
+            <!--Acá va la sección gallery-->
+            <section class="gallery">
+                <h1>Algunos invisibles</h1>
+                <div class="slider">
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (1).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (2).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (3).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (4).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (5).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (6).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (7).jpg" alt=""></div>
+                    <div class="sliderFade fade"><img src="resources/Gallery/img (8).jpg" alt=""></div>
+                    <div class="direccions">
+                        <a  class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                        <a  class="siguiente" onclick="avanzaSlide(1)">&#10095;</a>
+                    </div>
+                    <div class="barr">
+                        <span class="bar active" onclick="positionSlide(1)"></span>
+                        <span class="bar" onclick="positionSlide(2)"></span>
+                        <span class="bar" onclick="positionSlide(3)"></span>
+                        <span class="bar" onclick="positionSlide(4)"></span>
+                        <span class="bar" onclick="positionSlide(5)"></span>
+                        <span class="bar" onclick="positionSlide(6)"></span>
+                        <span class="bar" onclick="positionSlide(7)"></span>
+                        <span class="bar" onclick="positionSlide(8)"></span>
+                    </div>
+                    <script src="js/slider.js"></script>
+                </div>
+            </section>
+        </main>
+        <footer>
+            &copy;Ciudad Olvidada es un sitio web creado por Fabiola Ávila. Todos los derechos reservados. <br> Diseño y Maquetación &copy;JF Creative - 2021, Ibagué - Tolima - Colombia.
+        </footer>
+    </body>
+</html>
